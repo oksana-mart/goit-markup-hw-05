@@ -72,8 +72,6 @@ img {
 }
 
 header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid var(--header-border-bottom-color);
 }
 
@@ -97,6 +95,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: block;
+  padding: 32px 0;
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -104,7 +103,7 @@ header {
 
 .nav-link::after {
   position: absolute;
-  bottom: -33.5px;
+  bottom: -1px;
   right: 0;
   content: "";
   display: block;
@@ -153,6 +152,7 @@ header {
   color: inherit;
   display: flex;
   align-items: center;
+  padding: 32px 0;
   fill:var(--main-text-color);
 
   transition-duration: 250ms;
